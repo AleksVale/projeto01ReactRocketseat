@@ -31,9 +31,7 @@ export function AddTarefa(){
       
     }
     function deleteTask(task){
-      console.log(task)
       const newTarefasDeleted = tarefas.filter(taskDeleted=>{
-        console.log(taskDeleted)
         return task != taskDeleted
       })
       if(newTarefasDeleted.length ==0){
