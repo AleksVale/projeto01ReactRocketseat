@@ -1,0 +1,81 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: -1.6rem auto 0;
+  width: 50rem;
+}
+.formulario input {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 90%;
+  font-family: 'Inter' sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.formulario input:focus {
+  outline: 1px solid var(--purpleDark);
+}
+.formulario button {
+  background-color: var(--blueDark);
+  padding: 1rem 0;
+  width: 10%;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-family: 'Inter' sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: 0.4s ease;
+}
+.formulario button:hover {
+  background-color: var(--blue);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.rowCreate {
+  width: 50rem;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+.criada {
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+}
+.numberCreate {
+  color: #fff;
+  background-color: var(--gray-400);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+}
+.numberDone {
+  color: #fff;
+  background-color: var(--gray-400);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+}
+.concluida {
+  color: var(--purple);
+  display: flex;
+  gap: 0.625rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  align-items: center;
+  gap: 0.5rem;
+}
